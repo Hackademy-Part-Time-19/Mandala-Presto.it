@@ -21,12 +21,12 @@
         </div>
     </nav>
 
-    <header class="slogan" id="slogan">
-        <div class="slogan2" id="slogan2">
+    <div style="width: 100vw;height: 9vh;"></div>
 
-            <div class="div_immagine_shopping" id="div_immagine_shopping">
-                <img src="./media/immagine shopping.png" alt="immagine shopping" class="immagine_shopping"
-                    id="immagine_shopping">
+    <header class="slogan" id="slogan">
+
+            <div class="div_slogan_img">
+                <img src="./media/libero-shopping-donna-mobile.jpg" alt="" class="slogan_img">
             </div>
 
             <div class="div_slogan_text" id="div_slogan_text">
@@ -34,45 +34,47 @@
                     SHOPPING BAG</h1>
             </div>
 
-        </div>
-
     </header>
 
-    <main class="categorizzazione" id="categorizzazione">
-        <div class="div_titolo_categorizzazione" id="div_titolo_categorizzazione">
-            <h2 class="titolo_categorizzazione" id="titolo_categorizzazione">Scegli una categoria per visualizzare tutti
-                i prodotti dei nostri brand partner ad un prezzo esclusivo!</h2>
+    <main class="main_filtro" id="filtro">
+        <div class="div_titolo_filtro" id="div_titolo_filtro">
+            <h2 class="titolo_filtro" id="titolo_filtro">Utilizza il filtro per trovare
+                il prodotto dei nostri brand partner che più ti interessa ad un prezzo esclusivo!</h2>
         </div>
 
-        <div class="div_x_categorie" id="div_x_categorie">
-            <div class="categoria" id="categoria1">
-                <h4 class="categoria_text">BORSE</h4>
-                <img src="./media/borse.png" alt="borse" class="img_categoria">
+        <div class="div_x_filtro" id="div_x_filtro">
+            <div class="filtro" id="div_filtro_nome">
+                <input type="text" placeholder="Nome prodotto" class="filtro_nome">
             </div>
-            <div class="categoria" id="categoria2">
-                <h4 class="categoria_text">CAPPOTTI</h4>
-                <img src="./media/cappotti.png" alt="cappotti" class="img_categoria">
+            <div class="filtro" id="div_filtro_categoria">
+                <button class="button_categoria_prezzo_cerca" id="button_categoria">Categoria <i class="fa-solid fa-circle-chevron-down" style="color: black;"></i></button>
             </div>
-            <div class="categoria" id="categoria3">
-                <h4 class="categoria_text">SCARPE</h4>
-                <img src="./media/scarpe.png" alt="scarpe" class="img_categoria">
+            <div class="filtro" id="div_filtro_prezzo">
+                <button class="button_categoria_prezzo_cerca" id="button_prezzo">Prezzo <i class="fa-solid fa-circle-chevron-down" style="color: black;"></i></button>
             </div>
-            <div class="categoria" id="categoria4">
-                <h4 class="categoria_text">ABITI</h4>
-                <img src="./media/abiti.png" alt="abiti" class="img_categoria">
+            <div class="filtro" id="div_cerca">
+                <button class="button_categoria_prezzo_cerca" id="button_cerca">Cerca <i class="fa-solid fa-magnifying-glass-arrow-right" style="color: black;"></i></button>
             </div>
         </div>
     </main>
 
     <section class="countdown_offerte" id="countdown_offerte">
+        <div class="div_countdown_offerte" id="div_countdown_offerte">
 
+            <div class="div_testo_countdown" id="div_testo_countdown">
+                <h4 class="testo_countdown" id="testo_countdown">LE OFFERTE DI OGGI SCADRANNO TRA:</h4>
+            </div>
+
+            <div class="div_countdown" id="div_countdown"></div>
+
+        </div>
     </section>
 
     <footer class="footer" id="footer">
 
     </footer>
 
-
+    <script src="https://kit.fontawesome.com/b3d40ba2bb.js" crossorigin="anonymous"></script>
     <script src="./Presto.itSCRIPT.js"></script>
 
 </body>
