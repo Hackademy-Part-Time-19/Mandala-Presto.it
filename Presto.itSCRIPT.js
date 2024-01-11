@@ -70,7 +70,7 @@ document.addEventListener("click", function (event) {
   }
 });
 
-// Funzione che permette a bottoni filtro di aprire le varie voci prezzo
+// Funzione che permette a bottoni filtro di aprire le varie voci prezzo o categoria e di selezionarle
 
 document.addEventListener("click", function (event) {
   let bottone_prezzo = document.getElementById("button_prezzo");
